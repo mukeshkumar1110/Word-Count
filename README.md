@@ -24,9 +24,21 @@ Input the values
 End the program
 
 ## PROGRAM:
+```python
+#program to find the number of words in a text file
+#Developed by : MUKESH KUMAR S
+#Register number : 212223240099
+
+count=0
+with open("story.txt","r") as f1:
+    for i in f1:
+        word=i.split()
+        count += len(word)
+print("The number of words are in the file is ",count)
+```
 
 ### OUTPUT:
-
+![alt text](<Screenshot 2024-05-11 215440.png>)
 
 
 ## RESULT:
